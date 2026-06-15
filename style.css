@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+     background: linear-gradient(135deg,#e8f5e9,#e3f2fd);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    overflow:hidden;
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+     backdrop-filter: blur(5px);
+}
+
+h1 {
+    text-align: center;
+    color: #0077b6;
+}
+
+p {
+    text-align: center;
+}
+
+input,
+select,
+button {
+    border-radius:8px;
+    border:1px solid #ddd;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background:#005f8a;
+    transform:translateY(-2px);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e8f5e9;
+    border-radius: 10px;
+    text-align:center;
+}
+#chatbot-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #28a745;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+#chatbot-btn:hover{
+    transform: scale(1.1);
+}
+
+#chatbot-box{
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    display: none;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    z-index: 9999;
+    border: none;
+}
+.chat-header{
+    background:#28a745;
+    color:white;
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.welcome-msg{
+    background:#f4f7fb;
+    padding:10px;
+    border-radius:10px;
+    text-align:left;
+    margin-bottom:10px;
+}
+.roles{
+    display:grid;
+    gap:10px;
+}
+
+.role-card{
+    background:#f4f7fb;
+    padding:15px;
+    border-radius:10px;
+    font-weight:bold;
+}
+.hero{
+    background: linear-gradient(135deg,#0077b6,#28a745);
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    margin-top:0;
+}
+
+.hero p{
+    color:white;
+}
+.stats{
+    display:flex;
+    gap:10px;
+    margin:20px 0;
+}
+
+.stat-box{
+    flex:1;
+    background:#e8f5e9;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+footer{
+    margin-top:30px;
+    padding:20px;
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+}
+
+footer p{
+    color:white;
+}
+.logo{
+    text-align:center;
+    color:#0077b6;
+    font-size:42px;
+    margin-bottom:5px;
+}
+.about{
+    background:#f4f7fb;
+    padding:15px;
+    border-radius:10px;
+    margin:20px 0;
+}
+.section-title{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:15px;
+}

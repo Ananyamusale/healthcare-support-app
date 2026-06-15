@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Volunteer Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="logo">HealthConnect NGO</h1>
+            <p class="logo-tagline">Connecting Volunteers with Healthcare Communities</p>
+
+        <div class="hero">
+            <h2>Empowering Communities Through Healthcare</h2>
+            <p>
+                Join our mission to provide healthcare awareness,
+                volunteer support, and community outreach services.
+            </p>
+        </div>
+        <section class="about">
+            <h3 class="section-title">About HealthConnect NGO</h3>
+            <p>
+                HealthConnect NGO aims to connect volunteers with healthcare
+                initiatives, awareness programs, and community outreach activities.
+                Our goal is to improve access to healthcare support and promote
+                healthier communities.
+            </p>
+        </section>
+        <h3 class="section-title">Volunteer Opportunities</h3>
+
+        <div class="roles">
+            <div class="role-card">🩺 Medical Assistance Volunteer</div>
+            <div class="role-card">📚 Health Awareness Educator</div>
+            <div class="role-card">🤝 Community Outreach Volunteer</div>
+            <div class="role-card">❤️ General Support Volunteer</div>
+        </div>
+        <div class="stats">
+            <div class="stat-box">
+                <h3>500+</h3>
+                <p>Volunteers</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>1000+</h3>
+                <p>Patients Supported</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>50+</h3>
+                <p>Healthcare Camps</p>
+            </div>
+        </div>
+        <form id="volunteerForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <input type="text" id="skills" placeholder="Skills (e.g. First Aid, Teaching)" required>
+
+            <select id="availability" required>
+                <option value="">Select Availability</option>
+                <option value="Weekdays">Weekdays</option>
+                <option value="Weekends">Weekends</option>
+                <option value="Anytime">Anytime</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="result"></div>
+        
+    </div>
+
+    <div id="chatbot-btn">🤖</div>
+    
+    <div id="chatbot-box">
+        <div class="chat-header">
+            🤖 HealthConnect AI Assistant
+    </div>
+
+    <p class="welcome-msg">
+        Hello! 👋 Welcome to HealthConnect NGO.<br>
+        How can I help you today?
+    </p>
+
+        <input type="text" id="question"
+        placeholder="Ask a question...">
+
+        <button onclick="answerQuestion()">Send</button>
+
+        <div id="chatbotResponse"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <h3>HealthConnect NGO</h3>
+        <p>Making healthcare support accessible to everyone.</p>
+        <p>📧 support@healtconnect.org | 📞 +91 ##### #####</p>
+    </footer>
+</body>
+</html>
