@@ -66,7 +66,7 @@ This platform helps NGOs:
 
 ## 🌐 Live Demo
 
-👉 *(Add Netlify/Vercel link here after deployment)*
+👉 Live Link: https://dreamy-marshmallow-28c44d.netlify.app/
 
 ---
 
