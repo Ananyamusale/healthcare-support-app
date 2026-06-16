@@ -10,16 +10,16 @@
 
 HealthConnect NGO is a simple **healthcare volunteer registration web application** designed to connect volunteers with healthcare initiatives and community outreach programs.
 
-It helps NGOs manage volunteer registration and assign suitable roles based on skills.
+It helps NGOs manage volunteer registration and assign suitable roles based on skills using a simple rule-based recommendation system.
 
 ---
 
 ## ✨ Features
 
 - 📝 Volunteer Registration Form  
-- 🤖 AI-based Volunteer Role Recommendation System  
-- 💬 AI-style FAQ Chat Assistant (concept-based)  
-- 📱 Responsive UI design  
+- 🤖 AI-inspired Volunteer Role Recommendation System  
+- 💬 FAQ-style Chat Assistant (concept-based automation)  
+- 📱 Fully Responsive User Interface  
 - 🏥 NGO-focused workflow for healthcare support  
 
 ---
@@ -34,24 +34,25 @@ It helps NGOs manage volunteer registration and assign suitable roles based on s
 
 ## 🧠 AI / Automation Idea
 
-This project includes a simple **AI-inspired recommendation system**.
+This project includes a simple **rule-based AI-inspired recommendation system**.
 
-Based on user skills, the system suggests suitable roles:
+Based on user skills, the system suggests suitable volunteer roles:
 
 - First Aid → Medical Assistance Volunteer  
 - Teaching → Health Awareness Educator  
 - Communication → Community Outreach Volunteer  
 
-It simulates intelligent volunteer matching for NGOs.
+This simulates basic intelligent decision-making for NGO volunteer allocation.
 
 ---
 
 ## 🏢 NGO Use Case
 
-This platform helps NGOs:
-- Register volunteers easily  
-- Assign them to suitable roles  
-- Improve efficiency in healthcare outreach programs  
+This platform helps NGOs to:
+- Register volunteers efficiently  
+- Assign roles based on skills  
+- Improve coordination in healthcare outreach programs  
+- Reduce manual workload in volunteer management  
 
 ---
 
@@ -59,14 +60,14 @@ This platform helps NGOs:
 
 1. Clone or download the repository  
 2. Open `index.html` in any browser  
-3. Fill out the volunteer form  
-4. Submit to see response message  
+3. Fill out the volunteer registration form  
+4. Submit to see confirmation response  
 
 ---
 
 ## 🌐 Live Demo
 
-👉 Live Link: https://dreamy-marshmallow-28c44d.netlify.app/
+👉 https://dreamy-marshmallow-28c44d.netlify.app/
 
 ---
 
@@ -92,4 +93,4 @@ GitHub: https://github.com/Ananyamusale
 
 ## ⭐ Note
 
-This project is built for internship assignment submission demonstrating frontend development and basic AI concept implementation.
+This project is developed as part of an internship assignment demonstrating frontend development skills and basic AI-inspired automation concepts.
